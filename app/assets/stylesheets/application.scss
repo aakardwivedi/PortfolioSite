@@ -1,0 +1,74 @@
+@import 'bootstrap';
+@import "font-awesome";
+.row-content {
+  margin: 0px auto;
+  min-height: 300px;
+}
+.row-footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #AfAfAf;
+}
+footer
+{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar
+{
+	background-color: #2b5797;
+	color: #fff;
+	font-size: 11px;
+}
+.jumbotron
+{
+	background-color: #2d89ef;
+	color: #fff;
+}
+header
+{
+	text-align: center;
+}
+
+.btn
+{
+	text-align: center;
+	width: 100%;
+	border: none;
+	background-color: none;
+}
+.contact
+{
+	border: 2px solid;
+	color: #bbb;
+}
+.row2
+{
+	background-color: #fff;
+
+}
+h3
+{
+	font-family: cursive;
+}
+#copyright
+{
+	position: absolute;
+	padding-bottom: 0px;
+	padding-left: 600px;
+	font-size: 15px;
+}
+form
+{
+	color: yellow;
+	font-weight: 20;
+}
+footer a{
+	color: #fff;
+}
+@import "materialize/components/color";
+$primary-color: color("blue", "lighten-2") !default;
+$secondary-color: color("yellow", "base") !default;
+@import 'materialize';
+
+@import "materialize/components/icons-material-design";
