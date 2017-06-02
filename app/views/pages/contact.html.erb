@@ -42,24 +42,31 @@
 </header>
 <body>
 	<div class="container">
-		<div class="row row content centre">
+		<div class="row row content">
 			<center>
 				<h5 class="header section-title">
 					<i class="fa fa-envelope-o" aria-hidden="true"></i>
 					Let's Get in Touch! <hr class="amber accent-3">
 				</h5>
-				<form >
-					<label>Enter Subject of the Message</leabel>
-					<input type="text" placeholder="Subject" title="Subject">
-					<br>
-					<label>Enter your email</label>
-					<input type="email" placeholder="Email" title="email">
-					<br>
-					<label for="icon_telephone">Telephone</label>
-					<input type="tel" placeholder="Phone">
-				</form>
-                    </div>
 			<center>
-		</div>
+			<form >
+				<label>
+					<span align=left><i class="material-icons" style="padding-right: 10px;" id="icon_prefix">person_pin</i><span id="form-text">Name</span></span>
+					<span align=left><i class="material-icons" style="padding-right: 10px;" id="icon_prefix">person_pin</i><input for="icon_prefix" type="text" placeholder="Name" title="Name">
+					
+					<span align=left><i class="material-icons" style="padding-right: 10px;">email</i><span id="form-text">Enter your email</span></span>
+					<div class="input-field inline"><input type="email" placeholder="Email" title="email"></div>
+					
+					<i class="material-icons" style="padding-right: 10px;">contact_phone</i><span id="form-text">Telephone</span>
+					<input type="tel" placeholder="Phone">
+					
+					<i class="material-icons" style="padding-right: 10px;">subject</i><span id="form-text">Subject</span>
+					<input type="text" placeholder="Subject" title="Subject">
+					
+					<i class="material-icons" style="padding-right: 10px;">message</i><span id="form-text">Message</span>
+					<input placeholder="Message"></input>
+				</label>
+			</form>
+            </div>
 	</div>
 </body>
